@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF5E20EF1D15FBBC00EA00CB /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E20EE1D15FBBC00EA00CB /* WindowController.swift */; };
+		CFB9CEB41CD67914002D9DAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB9CEB31CD67914002D9DAD /* AppDelegate.swift */; };
+		CFB9CEB81CD67914002D9DAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB9CEB71CD67914002D9DAD /* Assets.xcassets */; };
+		CFB9CEBB1CD67914002D9DAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB9CEB91CD67914002D9DAD /* Main.storyboard */; };
+		CFB9CEC81CD67A69002D9DAD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB9CEC21CD67A69002D9DAD /* MainViewController.swift */; };
+		CFB9CEC91CD67A69002D9DAD /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB9CEC31CD67A69002D9DAD /* MainWindowController.swift */; };
+		CFB9CECA1CD67A69002D9DAD /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB9CEC41CD67A69002D9DAD /* IconButton.swift */; };
+		CFB9CECC1CD67A69002D9DAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB9CEC61CD67A69002D9DAD /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF5E20EE1D15FBBC00EA00CB /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		CFB9CEB01CD67914002D9DAD /* SensePad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SensePad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB9CEB31CD67914002D9DAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFB9CEB71CD67914002D9DAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFB9CEBA1CD67914002D9DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFB9CEBC1CD67914002D9DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB9CEC21CD67A69002D9DAD /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = MainViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CFB9CEC31CD67A69002D9DAD /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = MainWindowController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CFB9CEC41CD67A69002D9DAD /* IconButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		CFB9CEC61CD67A69002D9DAD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFB9CEAD1CD67914002D9DAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFB9CEA71CD67914002D9DAD = {
+			isa = PBXGroup;
+			children = (
+				CFB9CEB21CD67914002D9DAD /* SensePad */,
+				CFB9CEB11CD67914002D9DAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFB9CEB11CD67914002D9DAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFB9CEB01CD67914002D9DAD /* SensePad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFB9CEB21CD67914002D9DAD /* SensePad */ = {
+			isa = PBXGroup;
+			children = (
+				CFB9CEC41CD67A69002D9DAD /* IconButton.swift */,
+				CFB9CEC21CD67A69002D9DAD /* MainViewController.swift */,
+				CFB9CEC31CD67A69002D9DAD /* MainWindowController.swift */,
+				CF5E20EE1D15FBBC00EA00CB /* WindowController.swift */,
+				CFB9CEC61CD67A69002D9DAD /* ViewController.swift */,
+				CFB9CEB31CD67914002D9DAD /* AppDelegate.swift */,
+				CFB9CEB71CD67914002D9DAD /* Assets.xcassets */,
+				CFB9CEB91CD67914002D9DAD /* Main.storyboard */,
+				CFB9CEBC1CD67914002D9DAD /* Info.plist */,
+			);
+			path = SensePad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFB9CEAF1CD67914002D9DAD /* SensePad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB9CEBF1CD67914002D9DAD /* Build configuration list for PBXNativeTarget "SensePad" */;
+			buildPhases = (
+				CFB9CEAC1CD67914002D9DAD /* Sources */,
+				CFB9CEAD1CD67914002D9DAD /* Frameworks */,
+				CFB9CEAE1CD67914002D9DAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SensePad;
+			productName = SensePad;
+			productReference = CFB9CEB01CD67914002D9DAD /* SensePad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFB9CEA81CD67914002D9DAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = lsauceda;
+				TargetAttributes = {
+					CFB9CEAF1CD67914002D9DAD = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = R3UL8386AP;
+					};
+				};
+			};
+			buildConfigurationList = CFB9CEAB1CD67914002D9DAD /* Build configuration list for PBXProject "SensePad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFB9CEA71CD67914002D9DAD;
+			productRefGroup = CFB9CEB11CD67914002D9DAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFB9CEAF1CD67914002D9DAD /* SensePad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFB9CEAE1CD67914002D9DAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB9CEB81CD67914002D9DAD /* Assets.xcassets in Resources */,
+				CFB9CEBB1CD67914002D9DAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFB9CEAC1CD67914002D9DAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB9CEC81CD67A69002D9DAD /* MainViewController.swift in Sources */,
+				CF5E20EF1D15FBBC00EA00CB /* WindowController.swift in Sources */,
+				CFB9CEC91CD67A69002D9DAD /* MainWindowController.swift in Sources */,
+				CFB9CECC1CD67A69002D9DAD /* ViewController.swift in Sources */,
+				CFB9CECA1CD67A69002D9DAD /* IconButton.swift in Sources */,
+				CFB9CEB41CD67914002D9DAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFB9CEB91CD67914002D9DAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFB9CEBA1CD67914002D9DAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFB9CEBD1CD67914002D9DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFB9CEBE1CD67914002D9DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CFB9CEC01CD67914002D9DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SensePad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsauceda.SensePad;
+				PRODUCT_NAME = SensePad;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		CFB9CEC11CD67914002D9DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SensePad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsauceda.SensePad;
+				PRODUCT_NAME = SensePad;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFB9CEAB1CD67914002D9DAD /* Build configuration list for PBXProject "SensePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB9CEBD1CD67914002D9DAD /* Debug */,
+				CFB9CEBE1CD67914002D9DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB9CEBF1CD67914002D9DAD /* Build configuration list for PBXNativeTarget "SensePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB9CEC01CD67914002D9DAD /* Debug */,
+				CFB9CEC11CD67914002D9DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFB9CEA81CD67914002D9DAD /* Project object */;
+}
